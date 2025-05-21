@@ -1,57 +1,42 @@
-body{
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+
+.project{
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    padding: 50px;
+    border: 5px double black;
     align-items: center;
-    background-color: #e0e5ec;
+    background-color: beige;
+}
+.hover:hover{
+    background-color: aqua;
     font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    border: 3px solid red;
+    
 }
 
-.card{
-    background: #e0e5ec;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+.active:active{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    height: 30px;
+    border: 3px solid red;
 }
 
-.fullcard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    width: 300px;
+.focus:focus{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 30px;
+    border: 3px solid red;
 }
 
-h1{
-    color: #6d7582;
-    margin-bottom: 20px;
+a:link{
+    color: white;
+    background-color: blue;
 }
-
- .inputbox{
-    padding: 15px 30px;
-    width: 80%;
-    font-size: 16px;
-    color: #6d7582;
-    border: none;
-    outline: none;
-    margin-bottom: 25px;
- }
-
- .inputbox::placeholder{
-    color: #a3b1c6;
- }
-
- .submitbutton{
-    padding: 15px 30px;
-    font-size: 16px;
-    color: #6d7582;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
- }
-
- .submitbutton:active{
-    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
-
- }
+a:visited{
+    color: green;
+    background-color: aqua;
+}
